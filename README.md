@@ -50,8 +50,8 @@ Machine Learning Algorithm Used: Random Forest Classifier
 
 Model Persistence Method: Joblib
 
-Live App URL: []
+Live App URL: [Click here[]](https://actsl29vuk6lftom2jr3r9.streamlit.app/)
 
-GitHub Repository:[]
+GitHub Repository:[Click here[]](https://github.com/veeedahhh/TitanicSurvivalPrediction_ESSEN_23CG034071/)
 
 
