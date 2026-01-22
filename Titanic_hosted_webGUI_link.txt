@@ -6,6 +6,6 @@ Machine Learning Algorithm Used: Random Forest Classifier
 
 Model persistence method used: Joblib 
 
-Live URL of the hosted application: 
+Live URL of the hosted application: https://actsl29vuk6lftom2jr3r9.streamlit.app/
 
-GitHub repository link: 
+GitHub repository link: https://github.com/veeedahhh/TitanicSurvivalPrediction_ESSEN_23CG034071/
