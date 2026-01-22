@@ -7,7 +7,14 @@ import numpy as np
 
 # Load trained model & scaler
 model = joblib.load("model/titanic_survival_model.pkl")
-scaler = joblib.load("model/scaler.pkl")  # if scaling used
+# Remove or comment out this line
+# scaler = joblib.load("model/scaler.pkl")
+
+# Remove the scaling step
+# input_data_scaled = scaler.transform(input_data)
+# Instead, just use the raw input
+input_data_for_model = input_data  # For Random Forest
+prediction = model.predict(input_data_for_model)[0]
 
 st.title("Titanic Survival Prediction System")
 
@@ -27,7 +34,7 @@ input_data_scaled = scaler.transform(input_data)
 
 # Prediction
 if st.button("Predict"):
-    prediction = model.predict(input_data_scaled)[0]
+    prediction = model.predict(input_data)[0]  # raw input
     if prediction == 1:
         st.success("Passenger would have Survived ✅")
     else:
