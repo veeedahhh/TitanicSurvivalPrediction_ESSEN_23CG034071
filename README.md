@@ -54,11 +54,4 @@ Live App URL: []
 
 GitHub Repository:[]
 
-# Author
-
-Name: Your Name
-
-Matric Number: Your Matric Number
-
-Course: Machine Learning / Data Science
 
